@@ -22,4 +22,7 @@ setup(
     py_modules=[
         'facebook',
     ],
+    scripts = [
+        'distribute_setup.py',
+    ],
 )
